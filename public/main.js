@@ -28,7 +28,7 @@ const status = document.getElementById('status');
 form.addEventListener('submit', async e => {
   e.preventDefault();
   status.className = 'status';
-  if (!form.checkValidity()) { status.textContent = 'Revise nombre, correo y mensaje.'; status.classList.add('err'); form.reportValidity(); return; }
+  if (!form.checkValidity()) { status.textContent = 'Revise nombre, correo, mensaje y la autorización de datos.'; status.classList.add('err'); form.reportValidity(); return; }
   const btn = form.querySelector('button');
   btn.disabled = true; status.textContent = 'Enviando…';
   const data = Object.fromEntries(new FormData(form));

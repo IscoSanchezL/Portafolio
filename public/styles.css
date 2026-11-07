@@ -201,3 +201,16 @@ h1{font-size:clamp(2.6rem,6.4vw,5.4rem);max-width:15ch;font-weight:700}
   .row2{grid-template-columns:1fr}
   .form{padding:22px 18px}
 }
+
+/* consentimiento y páginas legales */
+.consent{display:flex!important;grid-template-columns:none;gap:12px;align-items:flex-start;font-size:.88rem;line-height:1.5}
+.consent input{width:auto;margin-top:4px;accent-color:#5b9bff}
+.consent a,.legal a{color:var(--accent)}
+.legal{padding:72px 0 96px;max-width:780px}
+.legal h1{font-size:clamp(2rem,4vw,3rem);max-width:none}
+.legal h2{font-size:1.25rem;margin:36px 0 10px;letter-spacing:-.01em}
+.legal p,.legal li{color:#b4bccb}
+.legal ul{margin:10px 0 0 20px}
+.legal .mono{color:var(--dim);font-size:.8rem;margin-top:8px}
+.nf{min-height:70vh;display:grid;align-content:center;gap:18px}
+.nf h1{font-size:clamp(4rem,12vw,8rem);color:var(--accent)}
